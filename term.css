@@ -1,0 +1,16 @@
+:root {
+  --size: 4rem;
+}
+
+.welcome {
+  margin-top: 1rem;
+}
+
+.command {
+  cursor: pointer;
+}
+
+.command,
+.directory {
+  cursor: pointer;
+}
