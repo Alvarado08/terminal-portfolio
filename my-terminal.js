@@ -61,12 +61,12 @@ const directories = {
     ),
     "",
     "<white>frameworks</white>",
-    ["Bootstrap", "Tailwind CSS", "Laravel"].map(
+    ["Bootstrap", "Tailwind CSS", "Alpine.js", "Laravel"].map(
       (lib) => `* <green>${lib}</green>`
     ),
     "",
     "<white>libraries</white>",
-    ["React.js", "Alpine.js", "Jest"].map((lib) => `* <green>${lib}</green>`),
+    ["React.js", "Jest"].map((lib) => `* <green>${lib}</green>`),
     "",
     "<white>tools</white>",
     ["Astro", "MySQL", "SQLite", "Git", "Figma", "WordPress"].map(
